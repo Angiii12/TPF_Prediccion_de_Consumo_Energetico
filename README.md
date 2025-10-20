@@ -1,2 +1,28 @@
-# TPF_Prediccion_de_Consumo_Energetico
-Desarrollar un pipeline de machine learning completo y reproducible para predecir el consumo energético del sistema de refrigeración Frio (kW) del día siguiente en una planta cervecera. Este proyecto evaluará la precisión del modelo y la implementación de buenas prácticas de MLOps.
+# 🚀 TPF Predicción de Consumo Energético
+
+Este repositorio contiene el proyecto final para [Laboratorio de Datos II], enfocado en la predicción de consumo energético utilizando técnicas de Machine Learning.
+
+---
+
+## 🛠️ Instalación y Configuración
+
+Sigue estos pasos para configurar el entorno de trabajo y poder ejecutar el proyecto.
+
+### 1. Clonar el Repositorio
+
+Abre una terminal y clona este repositorio en tu máquina local:
+
+```bash
+git clone [https://github.com/Angiii12/TPF_Prediccion_de_Consumo_Energetico.git](https://github.com/Angiii12/TPF_Prediccion_de_Consumo_Energetico.git)
+cd TPF_Prediccion_de_Consumo_Energetico
+
+### 2. Configurar el entorno virtual (recomendado Conda)
+
+# 1. Crea un nuevo entorno de Conda (puedes cambiar 'tpf_env' por el nombre que prefieras)
+conda create --name tpf_env python=3.9
+
+# 2. Activa el entorno recién creado
+conda activate tpf_env
+
+# 3. Instala todas las librerías necesarias desde el archivo requirements.txt
+pip install -r requirements.txt
