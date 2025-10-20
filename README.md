@@ -14,10 +14,10 @@ Abre una terminal y clona este repositorio en tu máquina local:
 
 ```bash
 git clone [https://github.com/Angiii12/TPF_Prediccion_de_Consumo_Energetico.git](https://github.com/Angiii12/TPF_Prediccion_de_Consumo_Energetico.git)
-cd TPF_Prediccion_de_Consumo_Energetico
-
+cd TPF_Prediccion_de_Consumo_Energetico```
+```
 ### 2. Configurar el entorno virtual (recomendado Conda)
-
+```
 # 1. Crea un nuevo entorno de Conda (puedes cambiar 'tpf_env' por el nombre que prefieras)
 conda create --name tpf_env python=3.9
 
@@ -26,3 +26,24 @@ conda activate tpf_env
 
 # 3. Instala todas las librerías necesarias desde el archivo requirements.txt
 pip install -r requirements.txt
+``````
+
+## 🏃 Cómo Ejecutar los Scripts Principales
+
+Una vez que el entorno esté activado (`conda activate tpf_env`), puedes ejecutar los scripts y notebooks del proyecto.
+
+* **Para el Análisis Exploratorio (EDA):**
+    * Abrir y ejecutar el notebook: `notebooks/01_EDA.ipynb`
+
+* **Para el Preprocesamiento de Datos:**
+    * Abrir y ejecutar el notebook: `notebooks/02_Preprocessing.ipynb`
+
+* **Para entrenar el modelo:**
+    ```bash
+    python src/train_model.py
+    ```
+
+* **Para ejecutar el pipeline de predicción:**
+    ```bash
+    python src/prediction_pipeline.py
+    ``````
