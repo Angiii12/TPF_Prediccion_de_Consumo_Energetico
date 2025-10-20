@@ -13,8 +13,7 @@ Sigue estos pasos para configurar el entorno de trabajo y poder ejecutar el proy
 Abre una terminal y clona este repositorio en tu máquina local:
 
 ```bash
-git clone [https://github.com/Angiii12/TPF_Prediccion_de_Consumo_Energetico.git](https://github.com/Angiii12/TPF_Prediccion_de_Consumo_Energetico.git)
-cd TPF_Prediccion_de_Consumo_Energetico```
+git clone https://github.com/Angiii12/TPF_Prediccion_de_Consumo_Energetico.git
 ```
 ### 2. Configurar el entorno virtual (recomendado Conda)
 ```
