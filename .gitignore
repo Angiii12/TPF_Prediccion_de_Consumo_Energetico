@@ -22,13 +22,27 @@ __pycache__/
 .idea/
 
 # --- DATOS BRUTOS (RAW DATA) ---
-# Ignoramos TODOS los archivos Excel dentro de la carpeta /data/
-# El * (asterisco) es un comodín que significa "cualquier cosa"
-data/
+# --- Reglas para la carpeta /data/ ---
+
+# 1. Ignora TODOS los archivos .xlsx DENTRO de data/
+# El asterisco (*) es un comodín que significa "cualquier cosa"
+data/*.xlsx
+
+# 2. Ignora TODOS los archivos .pdf DENTRO de data/
+data/*.pdf
+
+# 3. ¡LA REGLA DE EXCEPCIÓN! (Opcional, pero recomendada)
+# El signo '!' significa "NO ignorar".
+# Esto le dice a Git: "Incluso si una regla anterior
+# accidentalmente ignoró este archivo, ¡des-ignóralo!
+# ¡Este archivo SÍ me importa!"
+!data/checksums.json
 
 # --- DATOS PROCESADOS Y MODELOS ---
 # Ignoramos todo lo que generemos con nuestro código.
 # El pipeline debe poder REGENERARLOS.
+#Ignora la sub-carpeta 'processed' y TODO su contenido.
+# ¡Esto es CLAVE para no subir el dataset_final.csv más adelante!
 data/processed/
 models/
 
