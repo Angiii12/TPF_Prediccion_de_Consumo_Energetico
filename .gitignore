@@ -1,0 +1,38 @@
+# --- Entornos Virtuales ---
+# Ignorar la carpeta de tu entorno de Conda si la creaste dentro del proyecto
+# (Si está fuera, no hace falta, pero es buena práctica)
+cervecera_env/
+*.env
+.venv
+
+# --- Archivos de Cache de Python ---
+# "Basura" temporal que genera Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Checkpoints de Jupyter Notebook ---
+# Copias de seguridad automáticas que crea Jupyter
+.ipynb_checkpoints/
+
+# --- Archivos de configuración de IDEs ---
+# Configuraciones locales de tu editor (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# --- DATOS BRUTOS (RAW DATA) ---
+# Ignoramos TODOS los archivos Excel dentro de la carpeta /data/
+# El * (asterisco) es un comodín que significa "cualquier cosa"
+data/
+
+# --- DATOS PROCESADOS Y MODELOS ---
+# Ignoramos todo lo que generemos con nuestro código.
+# El pipeline debe poder REGENERARLOS.
+data/processed/
+models/
+
+# --- RESULTADOS Y LOGS ---
+# Archivos que generamos al correr los scripts
+results/
+*.log
