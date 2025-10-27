@@ -5,7 +5,7 @@
         "nombre_clave": "df_unificado"
     },
     "df_imputado": {
-        "hash": "64eed142c21e11ba2a0422f012483bcb",
+        "hash": "3a84dfa157838999aa098e3ee6116f3b",
         "ruta": "data\\checksums.json",
         "nombre_clave": "df_imputado"
     }
