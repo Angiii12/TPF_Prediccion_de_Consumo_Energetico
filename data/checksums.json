@@ -1,3 +1,7 @@
 {
-    "datos_crudos_unificados_v2": "f7b8d7c5153f2dd7e0ddac7d4fe1a435"
+    "df_unificado": {
+        "hash": "8be83280a04cd10d9257d4a360a1a69c",
+        "ruta": "data\\checksums.json",
+        "nombre_clave": "df_unificado"
+    }
 }
