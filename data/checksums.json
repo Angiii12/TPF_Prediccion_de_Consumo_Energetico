@@ -1,11 +1,11 @@
 {
     "df_unificado": {
-        "hash": "1b269e607c637d2ab55c22336690d848",
+        "hash": "933f24bba9e34d232a9c084c2da36b8c",
         "ruta": "data\\checksums.json",
         "nombre_clave": "df_unificado"
     },
     "df_imputado": {
-        "hash": "27f26036a958f5c9c692759dd1e74149",
+        "hash": "2de4a12b191e8220f4dc6c82804b5d2b",
         "ruta": "data\\checksums.json",
         "nombre_clave": "df_imputado"
     }
