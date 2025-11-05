@@ -8,5 +8,10 @@
         "hash": "2de4a12b191e8220f4dc6c82804b5d2b",
         "ruta": "data\\checksums.json",
         "nombre_clave": "df_imputado"
+    },
+    "df_train": {
+        "hash": "624edab8aaec1f0263000d908ec384c5",
+        "ruta": "data\\checksums.json",
+        "nombre_clave": "df_train"
     }
 }
